@@ -1,0 +1,37 @@
+{
+  "name": "playwrightapi2026_sangeeth",
+  "version": "1.0.0",
+  "description": "Playwrightapi2026_sangeeth",
+  "main": "index.js",
+ "scripts": {
+  "test": "playwright test",
+
+  "test:qa": "set TEST_ENV=qa && playwright test",
+
+  "test:sit": "set TEST_ENV=sit && playwright test",
+
+  "test:uat": "set TEST_ENV=uat && playwright test",
+
+  "report": "playwright show-report"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangeethkumarasp/Playwrightapi2026_sangeeth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sangeethkumarasp/Playwrightapi2026_sangeeth/issues"
+  },
+  "homepage": "https://github.com/sangeethkumarasp/Playwrightapi2026_sangeeth#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.11",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10"
+  }
+}
